@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-card {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-image: linear-gradient(to bottom, #28313b, #485461);
+  width: 15rem;
+  height: 20rem;
+  border-radius: 6px;
+  box-shadow: 6px 6px 10px gray;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.heading {
+  width: 13rem;
+  padding: 10px;
+  overflow: hidden;
+  position: relative;
+  top: 25%;
+  height: 448px;
+  /* animation: hoverout 2s ease-in-out 0s 1 normal forwards; */
+}
+.heading:hover {
+  animation: hoverin 2s ease-in-out 0s 1 normal forwards;
+}
+.heading:hover > #hori {
+  animation: hoverout 2s ease-in-out 0s 1 normal forwards;
+}
+hr {
+  width: 2rem;
+  height: 4px;
+  background-image: linear-gradient(45deg, #00ff8f, white);
+  border: none;
+  border-radius: 3px;
+  transition: width 2s ease-in-out;
+}
+@keyframes hoverin {
+  from {
+    top: 25%;
+  }
+  to {
+    top: -51%;
+  }
+}
+@keyframes hoverout {
+  from {
+    width: 2rem;
+  }
+  to {
+    width: 13rem;
+  }
+}
+
+/* @keyframes hoverout {
+  from {
+    top: -51%;
+  }
+  to {
+    top: 25%;
+  }
+} */
+
+.pname {
+  font-size: 22px;
+  background-image: linear-gradient(to right, #0396ff, #abdcff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.info {
+  font-size: 13px;
+  padding: 12px;
+  padding-top: 23px;
+  color: #00ff8f;
+  word-spacing: 2px;
+}
+.info2 {
+  font-size: 13px;
+  padding: 0px 12px;
+  color: #00ff8f;
+}
+
+.html {
+  color: orange;
+  font-size: 18px;
+}
+.css {
+  color: blue;
+  font-size: 18px;
+}
+.javascript {
+  color: yellow;
+  font-size: 18px;
+}
+.logo {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+.redheart {
+  color: red;
+}
+.github,
+.live,
+.heart {
+  color: #abdcff;
+  font-size: 24px;
+}
+.github:hover,
+.live:hover,
+.heart:hover {
+  cursor: pointer;
+  color: #81c6f8;
+}
+.weather {
+  padding-left: 51px;
+  padding-bottom: 83px;
+  background-image: linear-gradient(to right, #0396ff, #abdcff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 84px;
+}
+.hidden {
+  visibility: hidden;
+}
+.btn {
+  background-color: transparent;
+  border-style: none;
+}
+#pro {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to right, #0396ff, #abdcff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom: 1px solid #81c6f8;
+  box-shadow: 4px 4px 10px gray;
+}
