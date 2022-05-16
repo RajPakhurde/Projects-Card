@@ -73,9 +73,7 @@ hr {
 
 .pname {
   font-size: 22px;
-  background-image: linear-gradient(to right, #0396ff, #abdcff);
-  /* background-clip: text; */
-  /* -webkit-text-fill-color: transparent; */
+  color: #0396ff;
 }
 
 .info {
@@ -135,9 +133,8 @@ hr {
 .weather {
   padding-left: 51px;
   padding-bottom: 83px;
-  background-image: linear-gradient(to right, #0396ff, #abdcff);
-  /* background-clip: text; */
-  /* -webkit-text-fill-color: transparent; */
+  color: #abdcff;
+
   font-size: 84px;
 }
 
@@ -151,23 +148,7 @@ hr {
 #pro {
   display: flex;
   justify-content: center;
-  background-image: linear-gradient(to right, #0396ff, #abdcff);
-  /* background-clip: text; */
-  /* -webkit-text-fill-color: transparent; */
+  color: #0396ff;
   border-bottom: 1px solid #81c6f8;
   box-shadow: 4px 4px 10px gray;
-}
-@supports (-webkit-text-fill-color: transparent) {
-  .weather {
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-  }
-  #pro {
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-  }
-  .pname {
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-  }
 }
