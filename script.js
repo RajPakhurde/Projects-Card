@@ -13,9 +13,9 @@ function redheart() {
 }
 
 function openGithub() {
-  open("https://github.com/RajPakhurde/Weather-web-app");
+  open("https://github.com/RajPakhurde/Weather-website");
 }
 
 function openLive() {
-  open(" https://rajpakhurde.github.io/Weather-web-app/");
+  open("https://rajpakhurde.github.io/Weather-website/");
 }
