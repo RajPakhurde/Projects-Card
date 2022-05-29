@@ -17,5 +17,5 @@ function openGithub() {
 }
 
 function openLive() {
-  open("https://rajpakhurde.github.io/Weather-website/");
+  open("weather-website-fawn.vercel.app");
 }
