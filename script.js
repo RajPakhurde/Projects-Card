@@ -17,5 +17,5 @@ function openGithub() {
 }
 
 function openLive() {
-  open("weather-website-fawn.vercel.app");
+  open("https://weather-website-fawn.vercel.app");
 }
